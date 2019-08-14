@@ -35,6 +35,7 @@
             <attribute name="class">fa fa-th</attribute>
         </t>
         <t t-jquery="[t-as=app]" t-operation="before">
+            <!--
             <div class="mk_search_container form-row align-items-center mb-4 col-12">
                 <div class="mk_search_input col-md-10 ml-auto mr-auto mb-2">
                     <div class="input-group">
@@ -48,6 +49,7 @@
                 </div>
                 <div class="mk_search_results col-md-10 ml-auto mr-auto"/>
             </div>
+            -->
         </t>
         <t t-jquery=".o_app &gt; t" t-operation="replace">
             <t t-call="muk_web_theme.AppIcon"/>

@@ -31,9 +31,9 @@
                 <i class="fa fa-bars"/>
             </button>
         </t>
-        <t t-jquery=".o_menu_systray" t-operation="after">
+        <!-- <t t-jquery=".o_menu_systray" t-operation="after">
 			<div class="mk_apps_sidebar_panel" />
-        </t>
+        </t> -->
     </t>
 	
 	<t t-name="muk_web_theme.MobileMenu.link">     
