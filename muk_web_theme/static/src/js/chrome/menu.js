@@ -48,6 +48,8 @@ Menu.include({
         this._appsBar = new AppsBar(this, this.menu_data);
         this._appsBar.appendTo(this.$menu_apps_sidebar);
         this.$menu_apps_sidebar.renderScrollBar();
+        // Active menu load
+        this.$(".o_menu_apps a[data-toggle=dropdown]").trigger('click');
         if (config.device.isMobile) {
             var menu_ids = _.keys(this.$menu_sections);
             for (var i = 0; i < menu_ids.length; i++) {
